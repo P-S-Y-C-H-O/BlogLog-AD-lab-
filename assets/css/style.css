@@ -286,3 +286,55 @@ footer {
     align-items: center;
     gap: 15px;
 }
+
+/* --- AUTHENTICATION PAGES --- */
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    width: 100%;
+}
+
+.auth-card {
+    background: var(--card-bg);
+    padding: 50px 40px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-md);
+    border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.auth-card h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: var(--text-dark);
+}
+
+.auth-card button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 14px;
+    font-size: 1rem;
+}
+
+.auth-link {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+.auth-link a {
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.auth-link a:hover {
+    color: var(--primary-hover);
+    text-decoration: underline;
+}
